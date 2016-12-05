@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Twitter History",
+  "description": "This extension shows the signed in user's Twitter History when compared with another user.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "http://localhost:8303/TwitterHistoryWS.asmx"
+  ]
+}
